@@ -1,0 +1,6 @@
+{
+  "base_url": "https://userinyerface.com/",
+  "browser_type": "chrome",
+  "browser_option": "--incognito",
+  "wait_element_time": 30
+}
