@@ -1,0 +1,10 @@
+import random
+import string
+
+
+class StringUtils:
+    @staticmethod
+    def generate_random_string(length=5):
+        characters = string.ascii_letters + string.digits
+        random_string = ''.join(random.choice(characters) for _ in range(length))
+        return random_string
